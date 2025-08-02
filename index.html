@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy – Workplace Productivity Monitor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy – Workplace Productivity Monitor</h1>
+  <pre>
+Effective Date: August 2, 2025
+Version: 1.0
+Extension Name: Workplace Productivity Monitor
+Developer: [Your Company or Legal Name]
+Contact: [you@example.com]
+
+---
+
+1. Introduction
+
+Workplace Productivity Monitor ("we", "us", "our", or "the Extension") is a Chrome extension designed to help enterprises monitor web activity for productivity insights and policy compliance. This policy explains what information is collected, how it’s used, and what control users and administrators have.
+
+> This extension is designed for enterprise and professional use, not personal surveillance. All monitoring is transparent and user-configurable.
+
+---
+
+2. Data Collected
+
+2.1 Productivity Data
+- Visited URLs and page titles
+- Page content keyword matches
+- Timestamped browsing activity
+- Basic anonymized browser version data
+
+2.2 Policy Monitoring (Optional / Configurable)
+- Detection of configured policy violation keywords
+- Form field content, when monitored
+- Network requests (e.g., POST data) triggering rules
+- Cookie flags for security or audit tagging
+
+✅ This is all processed locally. Nothing is sent to third parties.
+
+2.3 Technical & Config Data
+- Extension performance and error logs (local only)
+- User-defined monitoring rules and S3 backup settings
+- Consent records (timestamped locally)
+
+---
+
+3. How Data Is Used
+
+All data is processed locally and encrypted if backed up externally.
+
+Primary uses include:
+- Productivity trend reports
+- Compliance violation flags
+- Optional encrypted backups
+- On-device security and policy enforcement
+
+---
+
+4. Storage & Security
+
+4.1 Local Storage
+- Chrome’s extension storage is used (local only)
+- All sensitive data is AES-GCM encrypted
+- Data is automatically deleted after 90 days
+- No background collection unless the user enables it
+
+4.2 Cloud Backup (User-Controlled)
+- Optional upload to a user-configured AWS S3 bucket
+- Incremental upload every user-defined interval
+- No developer access to S3 content or credentials
+
+The extension will never transmit data unless the user configures a backup destination.
+
+---
+
+5. Data Sharing
+
+- No third-party analytics
+- No advertisements
+- No developer-owned data collection
+- Data is only transmitted to user-controlled S3 endpoints
+- Legal disclosures only upon valid request
+
+---
+
+6. User Rights & Controls
+
+- ✅ Full consent-based activation (required at first run)
+- 🔄 Consent expires every 30 days (optional renewal prompt)
+- 🧾 View/export all local data via popup UI
+- 🗑️ Delete data at any time via extension controls
+- 🎛️ Customize monitored domains, fields, and keywords
+
+---
+
+7. Retention Policy
+
+- Recent events (last 50–100) stored in memory
+- 90-day cap on local storage
+- Cloud backups follow retention rules set by user
+- Auto-cleanup to remove expired logs and uploads
+
+---
+
+8. Children’s Privacy
+
+The extension is not intended for children under 13 and does not knowingly collect data from them.
+
+---
+
+9. International Data Handling
+
+- Local-only processing by default
+- Cloud data stored in user-chosen AWS region
+- All backups encrypted prior to transmission
+- GDPR and other international laws supported
+
+---
+
+10. Changes to This Policy
+
+- Significant changes will be versioned and date-stamped
+- Consent renewal will be prompted for material changes
+- Users may opt out or delete data at any time
+
+---
+
+11. Contact
+
+Email: [you@example.com]
+Business Address: [Your Address or HQ]
+We respond to privacy inquiries within 30 days.
+
+---
+
+12. Legal Basis
+
+- Consent is the primary legal basis for all data collection.
+- Legitimate interest for security, productivity insights, and compliance in corporate settings.
+
+---
+
+13. Security Standards
+
+- AES-GCM used for encryption
+- All data transmission (to S3) uses HTTPS with TLS 1.2+
+- No use of eval, Function() or code obfuscation
+- Only user has access to encryption keys or backups
+
+---
+
+14. Regulatory Compliance
+
+- GDPR, CCPA, and other relevant laws supported
+- No international transfers without user control
+- Fully local processing unless backup is enabled
+
+---
+
+15. Definitions
+
+Personal Data: Any information relating to an identified or identifiable user
+Processing: Any operation performed on data (collecting, storing, etc.)
+Controller: The user or enterprise configuring the extension
+Processor: This extension, which acts on the user's behalf
+
+---
+
+Last Updated: August 2, 2025
+Version: 1.0
+  </pre>
+</body>
+</html>
